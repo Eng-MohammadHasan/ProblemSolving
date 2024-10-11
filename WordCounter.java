@@ -18,13 +18,20 @@ public class WordCounter {
             return;
         }
 
-        int wordCount = 1; // Start with 1 because there will be at least one word
+        int wordCount = 0;
+        boolean isWord = false;
 
         // Loop through each character in the input name
         for (int i = 0; i < inputName.length(); i++) {
-            if (inputName.charAt(i) == ' ') {
-                // Increment word count for each space found
-                wordCount++;
+            char c = inputName.charAt(i);
+            
+            if (c != ' ') {
+                if (!isWord) {
+                    wordCount++;  // Increment word count when a new word starts
+                    isWord = true;
+                }
+            } else {
+                isWord = false;  // Reset flag when encountering a space
             }
         }
 
