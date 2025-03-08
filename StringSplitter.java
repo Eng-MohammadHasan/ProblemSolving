@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Write a method that prompt the user to enter 10 strings & spilt each String from the middle &
+then display each String on a line in which the second substring from each string will be first and the
+first substring will be the second ... 
+*/
 class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
