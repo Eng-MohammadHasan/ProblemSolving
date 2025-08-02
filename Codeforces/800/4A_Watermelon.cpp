@@ -4,6 +4,7 @@ using namespace std ;
 short ReadWeight()
 {
   short w = 0;
+ 
   do
   {
     cin >> w ;
