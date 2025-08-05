@@ -21,4 +21,16 @@ This folder may include:
 
 ---
 
+### 📈 My Codeforces Stats
+
+<p align="center">
+  <a href="https://codeforces.com/profile/Eng_Mohammad_Hasan" target="_blank">
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Eng_Mohammad_Hasan" alt="Codeforces Stats" width="300"/>
+  </a>
+  <br />
+  <img src="https://codeforces-readme-stats.vercel.app/api/badge?username=Eng_Mohammad_Hasan" alt="Codeforces Badge" width="120"/>
+</p>
+
+---
+
 🛠 Stay tuned for more updates!
